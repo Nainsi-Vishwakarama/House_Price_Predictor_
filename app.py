@@ -46,4 +46,4 @@ interface = gr.Interface(
 
 # 4. Launch the application
 if __name__ == "__main__":
-    interface.launch()
+    interface.launch(share=True)
